@@ -1,0 +1,1104 @@
+.container{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.landing-page{
+    height: 100vh;
+    background-image: url('./images/b2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 0;
+    margin-bottom: 15vh;
+}
+.navbar{
+    position: relative;
+    top: 4vh;
+    height: 7vh;
+    width: 100%;
+    font-family: "Roboto",
+        sans-serif;
+}
+.logo{
+    display: flex;
+    width: 30%;
+}
+.nav-container {
+    position: relative;
+    top: 0;
+    left: 20vw;
+    width: 50%;
+    height: 100%;
+}
+#links{
+    display: flex;
+}
+#logo-name{
+    position: relative;
+    top: -3vh;
+    left: 5vw;
+    color: white;
+    font-weight: 500;
+}
+.nav-links{
+    position: relative;
+    left: 76%;
+    margin-right: 2.5vw;
+    margin-top: -13vh;
+    letter-spacing: 1px;
+}
+.a-links{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+}
+.a-links:hover{
+    color: #A3C962;
+}
+.landing-content{
+    width: 80%;
+    height: 50%;
+    position: relative;
+    top: 24vh;
+    left: 10%;
+}
+.title, .sub-title, .caption{
+    text-align: center;
+    color: white;
+}
+.title{
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.sub-title{
+    margin-top: -2vh;
+    font-size: 45px;
+}
+.caption{
+    width: 75%;
+    letter-spacing: 1px;
+    position: relative;
+    left: 12%;
+    margin-top: -2vh;
+    font-size: 2.3vh;
+    font-family: "Roboto";
+    font-weight: 300;
+}
+#aboutbtn, #joinbtn{
+    margin-top: 8vh;
+    margin-right: 1.3vw;
+    position: relative;
+    left: 39%;
+    height: 6.8vh;
+    width: 10%;
+    border-radius: 2vw;
+    border:2px solid white;
+}
+#aboutbtn{
+    background-color: white;
+}
+#joinbtn{
+    background-color: #A3C962;
+}
+#aboutbtn:hover, #joinbtn:hover{
+    background-color: black;
+    color: white;
+    transition: 0.3s ease-in;
+}
+.landing-btn1{
+    text-decoration: none;
+    font-size: 2.4vh;
+    color: #A3C962;
+}
+.landing-btn2 {
+    text-decoration: none;
+    font-size: 2.4vh;
+    color: white;
+}
+.about-us{
+    max-width: 100%;
+    margin: 0;
+}
+#about-heading, #about-subheading, .about-content{
+    text-align: center;
+}
+#about-heading{
+    font-size: 3.8vh;
+    color: #A3C962;
+}
+#about-subheading{
+    font-weight: 600;
+    margin-top: -3.5vh;
+    margin-bottom: 5.5vh;
+}
+.about-content {
+    font-size: 2.9vh;
+    color: gray;
+    font-family: "Roboto";
+    font-weight:300;
+}
+.about-container{
+    display: flex;
+    margin-top: 15vh;
+    margin-bottom: 20vh;
+}
+.about-image{
+    width: 40%;
+    position: relative;
+}
+#image{
+    position: relative;
+    left: 35%;
+}
+ .about-subcontent {
+     width: 37%;
+     position: relative;
+     left: 11%;
+ }
+ #image1{
+    width: 100%;
+ }
+#about-header{
+    color: #A3C962;
+    font-size: 4vh;
+    margin-top: 0;
+}
+#motto{
+    font-family: "Roboto Slab";
+    font-weight: 300;
+    font-size: 4vh;
+    margin-top: -4.6vh;
+}
+.aboutus-context{
+    margin-top: -2vh;
+    font-size: 2.3vh;
+    color: rgb(95, 93, 93);
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-family: "Roboto";
+    font-weight: 300;
+    line-height: 4.5vh;
+}
+.service{
+    background-image: url(./images/s1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 115vh;
+    width: 100%;
+   
+}
+.service-header{
+    display: flex;
+    height: 20vh;
+    position: relative;
+    top: 7vh;
+}
+.s-header1, .s-header2{
+    width: 50%;
+}
+.service-description{
+    position: relative;
+    text-align: right;
+    left: 20%;
+    width: 75%;
+    font-size: 2.4vh;
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-family: "Roboto";
+    color: white;
+    line-height: 3.8vh;
+}
+.header-1{
+    color: #A3C962;
+    font-size: 3.5vh;
+    position: relative;
+    top: -4vh;
+}
+.subheader-1{
+    position: relative;
+    top: -9vh;
+    font-size: 7vh;
+    font-weight: 300;
+    color: white;
+}
+
+.service-grid{
+    margin-left: 20vh;
+    margin-top: 13vh;
+    display: grid;
+    grid-template-rows: 200px 200px;
+    grid-template-columns: 30% 30% 30%;
+    grid-row-gap: 30px;
+    grid-column-gap: 20px;
+}
+.servicebox1{
+    background-color: white;
+    width: 25vw;
+}
+.servicebox2 {
+    background-color: white;
+    width: 25vw;
+}
+.servicebox3 {
+    background-color: white;
+    width: 25vw;
+}
+.servicebox4 {
+    background-color: white;
+    width: 25vw;
+}
+.servicebox5 {
+    background-color: white;
+    width: 25vw;
+}
+.servicebox6 {
+    background-color: white;
+    width: 25vw;
+}
+.servicebox1:hover, .servicebox2:hover,.servicebox3:hover,.servicebox4:hover,.servicebox5:hover,.servicebox6:hover{
+    filter: brightness(75%);
+    transition: 0.4s ease-in;
+}
+.service-names{
+    text-align: center;
+    color: #A3C962;
+    font-size: 22px;
+}
+.service-descriptions{
+    width: 80%;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 2.4vw;
+    color: rgb(46, 45, 45);
+    font-weight: 300;
+    font-family: "Roboto";
+    margin-top: -2vh;
+    letter-spacing: 1px;
+}
+.gallery{
+    margin-top: 2vh;
+    height: 140vh;
+    position: relative;
+}
+.gallery-header {
+    display: flex;
+    height: 20vh;
+    position: relative;
+    top: 7vh;
+}
+
+.g-header1,
+.g-header2 {
+    width: 50%;
+}
+.gallery-description {
+    position: relative;
+    text-align: left;
+    left:0%;
+    width: 75%;
+    font-size: 2.4vh;
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-family: "Roboto";
+    color: black;
+    line-height: 3.8vh;
+}
+
+.header-2 {
+    color: #A3C962;
+    font-size: 3.5vh;
+    position: relative;
+    top: -4vh;
+    left: 75%;
+}
+
+.subheader-2 {
+    position: relative;
+    top: -9vh;
+    left: 63%;
+    font-size: 7vh;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+}
+.gallery-flex{
+    margin-top: 15vh;
+    height: 95%;
+    display: flex;
+}
+.gallery-grid1, .gallery-grid2{
+    position: relative;
+    left: 11vw;
+    width: 40%;
+}
+.gallery-grid1{
+    display: grid;
+    grid-template-rows: 300px 200px 200px 500px;
+    grid-template-columns: 45% 45%;
+    grid-gap: 20px;
+}
+.galleryimg1{
+    background-color: red;
+    grid-column: 1/3;
+}
+.galleryimg2 {
+    background-color: blanchedalmond;
+}
+.galleryimg3 {
+    background-color: seagreen;
+}
+.galleryimg4 {
+    background-color: palegreen;
+    grid-column: 1/3;
+}
+.gallery-grid2{
+    display: grid;
+    grid-template-rows: 140px 70px 180px 180px 70px ;
+    grid-template-columns: 45% 45%;
+    grid-gap: 20px;
+}
+.galleryimg5 {
+    background-color: red;
+    grid-row: 1/2;
+}
+
+.galleryimg6 {
+    background-color: blanchedalmond;
+    grid-row: 1/3;
+}
+
+.galleryimg7 {
+    background-color: seagreen;
+    grid-row: 3/4;
+}
+
+.galleryimg8 {
+    background-color: palegreen;
+    grid-row: 3/4;
+}
+.galleryimg9 {
+    background-color: peru;
+    grid-row: 4/6;
+    grid-column: 1/3;
+}
+.grid-images{
+    width: 100%;
+    height: 100%;
+}
+.border-pattern{
+    margin-top: 32vh;
+    margin-bottom: 15vh;
+    height: 40vh;
+    background-color: #A3C962;
+    display: flex;
+}
+.border-icons1{
+    width: 25%;
+}
+.border-icons2 {
+    width: 25%;
+}
+.border-icons3 {
+    width: 25%;
+}
+.border-icons4 {
+    width: 25%;
+}
+.border-number{
+    text-align: center;
+    font-size: 4vh;
+    margin-top: 2vh;
+    font-family: "Roboto";
+    font-weight: 500;
+}
+.icon-captions{
+    text-align: center;
+    font-size: 3.6vh;
+    margin-top: -5vh;
+    color: white;
+}
+.features {
+    height: 100vh;
+    margin-bottom: 20vh;
+}
+.feature-header {
+    display: flex;
+    height: 20vh;
+    position: relative;
+}
+
+.f-header1,
+.f-header2 {
+    width: 50%;
+}
+.feature-description {
+    position: relative;
+    text-align: right;
+    left: 20%;
+    width: 75%;
+    font-size: 2.4vh;
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-family: "Roboto";
+    color: gray;
+    line-height: 3.8vh;
+}
+
+.header-3 {
+    color: #A3C962;
+    font-size: 3.5vh;
+    position: relative;
+    top: -4vh;
+}
+
+.subheader-3 {
+    position: relative;
+    top: -9vh;
+    font-size: 7vh;
+    font-weight: 300;
+    color: black;
+}
+.feature-subcontainer{
+    display: flex;
+    height: 80vh;
+    margin-left: 20vw;
+    margin-top: 10vh;
+   
+}
+.f-content1{
+    width: 30%;
+    position: relative;
+    left: -7vw;
+}
+.f-content2{
+    width: 50%;
+    position: relative;
+    
+}
+.f-lists1, .f-lists2, .f-lists3{
+    height: 28%;
+    border-radius: 2.5vh;
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.747);
+}
+.f-images{
+    width: 100%;
+    height: 100%;
+}
+.f-lists1{
+    margin-bottom: 6vh;
+}
+.f-lists2{
+    margin-bottom: 6vh;
+    width: 90%;
+    margin-left: 4vw;
+}
+.f-titles{
+    position: relative;
+    left: 32%;
+    top: -5vh;
+    font-size: 3.7vh;
+    color: #A3C962;
+}
+.f-subcontent{
+    width: 65%;
+    position: relative;
+    left: 32%;
+    top: -7vh;
+    font-size: 2.8vh;
+    font-family: "Roboto";
+    font-weight: 300;
+}
+.our-prices{
+    height: 110vh;
+    background-image: url('./images/b2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 10vh;
+}
+.price-header {
+    display: flex;
+    height: 20vh;
+    position: relative;
+    top: 7vh;
+}
+
+.p-header1,
+.p-header2 {
+    width: 50%;
+}
+.p-header1{
+    margin-left: 3.6vw;
+}
+.price-description {
+    position: relative;
+    text-align: left;
+    top: 6vh;
+    left: 0%;
+    width: 75%;
+    font-size: 2.4vh;
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-family: "Roboto";
+    color: white;
+    line-height: 3.8vh;
+}
+
+.header-4 {
+    color: #A3C962;
+    text-align: right;
+    font-size: 3.5vh;
+    position: relative;
+    top: 0vh;
+    left: -5.5vw;
+}
+
+.subheader-4 {
+    position: relative;
+    top: -4vh;
+    left: 63%;
+    font-size: 7vh;
+    font-weight: 300;
+    color: white;
+}
+.subscriptions{
+    display: flex;
+    height: 57%;
+    
+    width: 80%;
+    margin-left: 10vw;
+    justify-content: space-around;
+    position: relative;
+}
+.books1,.books2,.books3,.books4{
+    position: relative;
+    margin-top: 18vh;
+    background-color: white;
+    width: 23%;
+    height: 100%;
+}
+.book-header{
+    margin-top: 25px;
+    text-align: center;
+    font-size: 3.6vh;
+    color: #A3C962;
+    font-weight: bold;
+}
+.money{
+    text-align: center;
+    font-size: 3vh;
+    color: rgb(59, 59, 59);
+}
+.money b{
+    font-size: 4.4vh;
+    color: #A3C962;
+    font-family: "Roboto";
+    letter-spacing: 1px;
+}
+.price-details{
+    width: 40%;
+    margin-left: 6vw;
+    margin-top: 5.4vh;
+    text-align: center;
+    font-size: 2.3vh;
+    line-height: 5vh;
+    color: gray;
+    font-family: "Roboto";
+}
+.price-btn{
+    height: 7vh;
+    width: 9.4vw;
+    border-radius: 3.3vh;
+    border: none;
+    background-color: #A3C962;
+    color: white;
+    font-size: 2.7vh;
+    font-weight: lighter;
+    margin-left: 4.7vw;
+    margin-top: 1.6vh;
+}
+.price-btn:hover{
+    background-color: black;
+    transition: 0.3s ease-in;
+}
+.reviews{
+    height: 100vh;
+}
+.review-header {
+    display: flex;
+    height: 20vh;
+    position: relative;
+}
+
+.r-header1,
+.r-header2 {
+    width: 50%;
+}
+
+.review-description {
+    position: relative;
+    text-align: right;
+    left: 20%;
+    width: 75%;
+    font-size: 2.4vh;
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-family: "Roboto";
+    color: gray;
+    line-height: 3.8vh;
+}
+
+.header-5 {
+    color: #A3C962;
+    font-size: 3.5vh;
+    position: relative;
+    top: -4vh;
+}
+
+.subheader-5 {
+    position: relative;
+    top: -9vh;
+    font-size: 7vh;
+    font-weight: 300;
+    color: black;
+}
+.review-container{
+    height: 70%;
+    width: 80%;
+    margin-left: 10vw;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-around;
+}
+.reviews1, .reviews2, .reviews3{
+    height: 100%;
+    width: 31%;
+}
+.client-images{
+    width: 45%;
+    height: 150px;
+    border: 1px solid rgb(165, 163, 163);
+    border-radius: 5px;
+}
+.c-imgs{
+    width: 95%;
+    height: 95%;
+    margin-left: 3px;
+    margin-top: 4px;
+}
+.c-names{
+    margin-top: 6vh;
+    font-size: 3.7vh;
+    margin-bottom: 0;
+    color: #A3C962;
+}
+.c-titles{
+    margin-top: 1.4vh;
+    font-size: 2.7vh;
+    font-weight: lighter;
+}
+.c-details{
+    width: 95%;
+    font-size: 2.6vh;
+    font-family: "Roboto";
+    color: gray;
+}
+.video-border{
+    background-color: #A3C962;
+    height: 60vh;
+    margin-bottom: 10vh
+}
+.video{
+    margin-left: 27%;
+   position: relative;
+   top: 3vh;
+}
+.video-caption{
+    text-align: center;
+    font-size: 6vh;
+    color: white;
+    font-weight: lighter;
+}
+.video-subcaption{
+    text-align: center;
+    color: rgb(51, 51, 51);
+    margin-top: -4vh;
+    font-size: 2.6vh;
+    font-family: "Roboto";
+    font-weight: 300;
+}
+.team-members{
+    height: 100vh;
+    margin-bottom: 15vh;
+}
+.team-header {
+    display: flex;
+    height: 20vh;
+    position: relative;
+}
+
+.t-header1,
+.t-header2 {
+    width: 50%;
+}
+
+.team-description {
+    position: relative;
+    text-align: right;
+    left: 20%;
+    width: 75%;
+    font-size: 2.4vh;
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-family: "Roboto";
+    color: gray;
+    line-height: 3.8vh;
+}
+
+.header-6 {
+    color: #A3C962;
+    font-size: 3.5vh;
+    position: relative;
+    top: -4vh;
+}
+
+.subheader-6 {
+    position: relative;
+    top: -9vh;
+    font-size: 7vh;
+    font-weight: 300;
+    color: black;
+}
+.team-container{
+    height: 85vh;
+    width: 80%;
+    margin-left: 10vw;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-between;
+}
+.members1, .members2, .members3, .members4{
+    width: 23%;
+    height: 100%;
+}
+.t-images{
+    height: 70%;
+}
+.t-img{
+    width: 100%;
+    height: 100%;
+}
+.t-names{
+    text-align: center;
+    font-size: 3.5vh;
+    color: #A3C962;
+}
+.t-titles{
+    text-align: center;
+    margin-top: -4vh;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 2.8vh;
+}
+.social-ticons{
+    margin-left: 4vw;
+}
+.social-ticons i{
+    margin-right: 1.3vw;
+}
+.social-ticons i:hover {
+   color: #A3C962 !important;
+   transition: 0.4s ease;
+}
+.events {
+    min-height: 115vh;
+    background-image: url('./images/b1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 10vh;
+}
+
+.event-header {
+    display: flex;
+    height: 20vh;
+    position: relative;
+    top: 7vh;
+}
+
+.e-header1,
+.e-header2 {
+    width: 50%;
+}
+
+.e-header1 {
+    margin-left: 3.6vw;
+}
+
+.event-description {
+    position: relative;
+    text-align: left;
+    top: 6vh;
+    left: 0%;
+    width: 75%;
+    font-size: 2.4vh;
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-family: "Roboto";
+    color: white;
+    line-height: 3.8vh;
+}
+
+.header-7 {
+    color: #A3C962;
+    text-align: right;
+    font-size: 3.5vh;
+    position: relative;
+    top: 0vh;
+    left: -5.5vw;
+}
+
+.subheader-7 {
+    position: relative;
+    top: -4vh;
+    left: 63%;
+    font-size: 7vh;
+    font-weight: 300;
+    color: white;
+}
+.event-container {
+    height: 70vh;
+    width: 80%;
+    margin-left: 10vw;
+    margin-top: 15vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.event1,
+.event2,
+.event3 {
+    height: 100%;
+    width: 31%;
+    background-color: white;
+}
+
+.event-images {
+    width: 95%;
+    height: 200px;
+    margin-left: 12px;
+    margin-top: 10px;
+}
+
+.e-imgs {
+    width: 95%;
+    height: 95%;
+    margin-left: 3px;
+    margin-top: 4px;
+}
+
+.e-names {
+    margin-top: -3vh;
+    margin-left: 15px;
+    font-size: 3.7vh;
+    margin-bottom: 0;
+    color: #A3C962;
+}
+
+.e-titles {
+    margin-top: 1.4vh;
+    margin-left: 15px;
+    font-size: 2.7vh;
+    font-weight: lighter;
+}
+
+.e-details {
+    width: 95%;
+    font-size: 2.6vh;
+    margin-left: 15px;
+    font-family: "Roboto";
+    color: gray;
+}
+.e-date{
+    display: flex;
+    margin-left: 12px;
+    margin-top: -3vh;
+    justify-content: space-between;
+}
+.date{
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 2.3vh;
+}
+.tags{
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 2.3vh;
+    position: relative;
+    left: -1.3vw;
+}
+.contact{
+    height: 100vh;
+    margin-bottom: 15vh;
+}
+.contact-header {
+    display: flex;
+    height: 20vh;
+    position: relative;
+}
+
+.con-header1,
+.con-header2 {
+    width: 50%;
+}
+
+.con-description {
+    position: relative;
+    text-align: right;
+    left: 20%;
+    width: 75%;
+    font-size: 2.4vh;
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-family: "Roboto";
+    color: gray;
+    line-height: 3.8vh;
+}
+
+.header-8 {
+    color: #A3C962;
+    font-size: 3.5vh;
+    position: relative;
+    top: -4vh;
+}
+
+.subheader-8 {
+    position: relative;
+    top: -9vh;
+    font-size: 7vh;
+    font-weight: 300;
+    color: black;
+}
+.contact-container{
+    display: flex;
+    height: 75vh;
+    width: 80%;
+    margin-top: 5vh;
+    margin-left: 10%;
+    justify-content: space-around;
+}
+.contact-form,.contact-links{
+    width: 47%;
+}
+.contact-form{
+    margin-top: 3vh;
+}
+.form-info{
+    width: 98%;
+    height: 7vh;
+    margin-bottom: 3vh;
+    border-width: 0 0 2px;
+}
+#msg{
+    width: 98%;
+    height: 22vh;
+    margin-bottom: 3vh;
+    border-width: 0 0 2px;
+}
+.submit-btn{
+    width: 98%;
+    height: 6vh;
+    border-radius: 4vh;
+    border: none;
+    font-size: 2.6vh;
+    color: white;
+    background-color:#A3C962;
+}
+.submit-btn:hover{
+    background-color: black;
+    transition: 0.4s ease-in;
+}
+.contact-links{
+    margin-top: -3vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.address, .phone, .email{
+    width: 100%;
+    height: 20%;
+    display: flex;
+}
+.contact-icons1{
+    width: 25%;
+}
+.contact-icons1 i{
+   margin-top: 6vh;
+   margin-left: 7vh;
+}
+.address-info,
+.phone-info,
+.email-info {
+    width: 60%;
+    position: relative;
+}
+.address-title,
+.phone-title,
+.email-title {
+    font-size: 3.9vh;
+    position: relative;
+    top: -7.5vh;
+    color: #A3C962;
+}
+.address-description,
+.phone-description,
+.email-description {
+    font-size: 2.2vh;
+    position: relative;
+    top: -9vh;
+    font-family: "Roboto";
+    font-weight: 300;
+    line-height: 1.5vh;
+}
+.map{
+    width: 99%;
+    height: 50vh;
+    margin-left: 5px;
+    border: 1px solid rgb(197, 196, 196);
+    margin-bottom: 2vh;
+}
+.googlemaps{
+    width: 99%;
+    height: 95%;
+    margin-left: 5px;
+    margin-top: 7px;
+}
+.footer{
+    background-color: #A3C962;
+    height: 30vh;
+    position: relative;
+}
+.copyright{
+    display:flex ;
+    padding-top: 2vh;
+    padding-left: 70vh;
+    color: white;
+    font-family: "Roboto";
+    letter-spacing: 2px;
+    font-size: 2.4vh;
+}
+.footer-icons {
+    padding-left:43%;
+    padding-top: 3vh;
+}
+.footer-icons i{
+    margin-right: 1vw;
+}
+.top-button{
+    padding-top: 3vh;
+    padding-left: 48%;
+}
